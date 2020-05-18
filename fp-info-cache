@@ -1,4 +1,4 @@
-352512633922178
+358872454843864
 Alps_Only
 ALPS-1.5U
 
@@ -51822,6 +51822,34 @@ apple_x_elmo
 0
 custom_parts
 oshw
+
+
+0
+0
+0
+custom_parts
+pear_x_elmo
+
+
+0
+0
+0
+custom_parts
+pear_x_elmo_copper
+
+
+0
+0
+0
+custom_parts
+qmk
+
+
+0
+0
+0
+custom_parts
+qmk_copper
 
 
 0
