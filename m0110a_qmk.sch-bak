@@ -2653,51 +2653,47 @@ Text GLabel 12650 1600 1    50   Input ~ 0
 col16
 Text GLabel 13200 1600 1    50   Input ~ 0
 col17
-Text GLabel 4100 6800 2    50   Input ~ 0
-row0
-Text GLabel 4100 6900 2    50   Input ~ 0
-row1
-Text GLabel 4100 7000 2    50   Input ~ 0
-row2
-Text GLabel 4100 7100 2    50   Input ~ 0
-row3
-Text GLabel 4100 7200 2    50   Input ~ 0
-row4
-Text GLabel 4100 7300 2    50   Input ~ 0
-col0
-Text GLabel 4100 7400 2    50   Input ~ 0
-col1
-Text GLabel 4100 7500 2    50   Input ~ 0
-col2
 Text GLabel 4100 7700 2    50   Input ~ 0
-col3
+row0
 Text GLabel 4100 7800 2    50   Input ~ 0
-col4
+row1
 Text GLabel 4100 7900 2    50   Input ~ 0
-col5
+row2
 Text GLabel 4100 8000 2    50   Input ~ 0
-col6
-Text GLabel 4100 8100 2    50   Input ~ 0
-col7
+row3
+Text GLabel 4100 10000 2    50   Input ~ 0
+row4
+Text GLabel 4100 10200 2    50   Input ~ 0
+col0
 Text GLabel 4100 8600 2    50   Input ~ 0
-col8
+col1
 Text GLabel 4100 8700 2    50   Input ~ 0
-col9
+col2
 Text GLabel 4100 8800 2    50   Input ~ 0
-col10
+col3
 Text GLabel 4100 8900 2    50   Input ~ 0
-col11
-Text GLabel 4100 9000 2    50   Input ~ 0
-col12
-Text GLabel 4100 9100 2    50   Input ~ 0
-col13
+col4
+Text GLabel 4100 10100 2    50   Input ~ 0
+col5
+Text GLabel 4100 8100 2    50   Input ~ 0
+col6
 Text GLabel 4100 9200 2    50   Input ~ 0
-col14
+col7
 Text GLabel 4100 9300 2    50   Input ~ 0
-col15
-Text GLabel 4100 9500 2    50   Input ~ 0
+col8
+Text GLabel 4100 7500 2    50   Input ~ 0
+col9
+Text GLabel 4100 7400 2    50   Input ~ 0
+col10
+Text GLabel 4100 7300 2    50   Input ~ 0
+col11
+Text GLabel 4100 7200 2    50   Input ~ 0
+col12
+Text GLabel 4100 6800 2    50   Input ~ 0
+col14
+Text GLabel 4100 7000 2    50   Input ~ 0
 col16
-Text GLabel 4100 9600 2    50   Input ~ 0
+Text GLabel 4100 7100 2    50   Input ~ 0
 col17
 $Comp
 L Device:D_Small D20
@@ -2917,4 +2913,6 @@ Wire Wire Line
 Wire Wire Line
 	8250 4600 8250 3850
 Connection ~ 8250 3850
+Text GLabel 4100 6900 2    50   Input ~ 0
+col15
 $EndSCHEMATC

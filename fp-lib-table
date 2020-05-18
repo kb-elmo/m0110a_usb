@@ -1,5 +1,5 @@
 (fp_lib_table
   (lib (name Alps_Only)(type KiCad)(uri ${KIPRJMOD}/MX_Alps_Hybrid/Alps_Only.pretty)(options "")(descr ""))
   (lib (name random-keyboard-parts)(type KiCad)(uri ${KIPRJMOD}/random-keyboard-parts.pretty)(options "")(descr ""))
-  (lib (name m0110a_pcb)(type KiCad)(uri D:/elmo/Desktop/m0110a_pcb)(options "")(descr ""))
+  (lib (name custom_parts)(type KiCad)(uri ${KIPRJMOD}/custom_parts)(options "")(descr ""))
 )
