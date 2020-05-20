@@ -2,4 +2,5 @@
   (lib (name Alps_Only)(type KiCad)(uri ${KIPRJMOD}/MX_Alps_Hybrid/Alps_Only.pretty)(options "")(descr ""))
   (lib (name random-keyboard-parts)(type KiCad)(uri ${KIPRJMOD}/random-keyboard-parts.pretty)(options "")(descr ""))
   (lib (name custom_parts)(type KiCad)(uri ${KIPRJMOD}/custom_parts)(options "")(descr ""))
+  (lib (name kicad-packages3D-master)(type KiCad)(uri D:/elmo/Desktop/kicad-packages3D-master)(options "")(descr ""))
 )
