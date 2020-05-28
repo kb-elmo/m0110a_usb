@@ -1,4 +1,4 @@
-18720642896988824
+18722234056483959
 Alps_Only
 ALPS-1.5U
 
@@ -82218,6 +82218,13 @@ Varistor
 RV_Disc_D21.5mm_W11.4mm_P10mm
 Varistor, diameter 21.5mm, width 11.4mm, pitch 10mm
 varistor SIOV
+0
+2
+2
+custom_parts
+Fuse_Littelfuse_395Series
+Fuse, TE5, Littelfuse/Wickmann, No. 460, No560,
+Fuse TE5 Littelfuse/Wickmann No. 460 No560 
 0
 2
 2
