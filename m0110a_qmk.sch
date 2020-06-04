@@ -371,8 +371,6 @@ F 3 "~" H 7900 4950 50  0001 C CNN
 	1    7900 4950
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7700 5200 7550 5200
 $Comp
 L power:+5V #PWR01
 U 1 1 5EC618E3
@@ -387,17 +385,14 @@ $EndComp
 $Comp
 L power:VCC #PWR03
 U 1 1 5EC6654A
-P 7550 5200
-F 0 "#PWR03" H 7550 5050 50  0001 C CNN
-F 1 "VCC" H 7567 5373 50  0000 C CNN
-F 2 "" H 7550 5200 50  0001 C CNN
-F 3 "" H 7550 5200 50  0001 C CNN
-	1    7550 5200
+P 7550 5300
+F 0 "#PWR03" H 7550 5150 50  0001 C CNN
+F 1 "VCC" H 7567 5473 50  0000 C CNN
+F 2 "" H 7550 5300 50  0001 C CNN
+F 3 "" H 7550 5300 50  0001 C CNN
+	1    7550 5300
 	1    0    0    -1  
 $EndComp
-Connection ~ 7550 5200
-Wire Wire Line
-	7550 5200 7400 5200
 Wire Wire Line
 	7700 4950 7750 4950
 $Comp
@@ -414,23 +409,8 @@ $EndComp
 Connection ~ 8150 4950
 Wire Wire Line
 	8150 4950 8050 4950
-$Comp
-L Connector:USB_B_Mini J1
-U 1 1 5EC7E4A9
-P 7100 5400
-F 0 "J1" H 7157 5867 50  0000 C CNN
-F 1 "USB_B_Mini" H 7157 5776 50  0000 C CNN
-F 2 "random-keyboard-parts:Molex-0548190519" H 7250 5350 50  0001 C CNN
-F 3 "~" H 7250 5350 50  0001 C CNN
-	1    7100 5400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7700 5200 7700 4950
 Wire Wire Line
 	8150 5050 8150 4950
-Wire Wire Line
-	7100 6100 7100 5800
 Wire Wire Line
 	7400 5400 7700 5400
 Wire Wire Line
@@ -448,10 +428,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 6150 7400 6100
 Wire Wire Line
-	7400 6100 7100 6100
-Wire Wire Line
 	7400 6100 7700 6100
-Connection ~ 7400 6100
 Wire Wire Line
 	7700 6100 7850 6100
 Connection ~ 7700 6100
@@ -2845,9 +2822,6 @@ Connection ~ 8150 5500
 Wire Wire Line
 	8150 5500 8350 5500
 Wire Wire Line
-	7000 5800 7100 5800
-Connection ~ 7100 5800
-Wire Wire Line
 	8000 1400 8550 1400
 Wire Wire Line
 	8000 2900 8550 2900
@@ -2855,19 +2829,69 @@ Wire Wire Line
 	8000 3650 8550 3650
 Wire Wire Line
 	8000 4400 8550 4400
-$Comp
-L Device:Resonator Y1
-U 1 1 5ED6B15E
-P 1400 6850
-F 0 "Y1" H 1400 7098 50  0000 C CNN
-F 1 "Resonator" H 1400 7007 50  0000 C CNN
-F 2 "Crystal:Resonator-3Pin_W7.0mm_H2.5mm" H 1375 6850 50  0001 C CNN
-F 3 "~" H 1375 6850 50  0001 C CNN
-	1    1400 6850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1250 6600 1250 6850
 Wire Wire Line
 	1550 6600 1550 6850
+$Comp
+L Device:Crystal XTAL1
+U 1 1 5F091829
+P 1400 6850
+F 0 "XTAL1" H 1400 7118 50  0000 C CNN
+F 1 "Crystal" H 1400 7027 50  0000 C CNN
+F 2 "Crystal:Crystal_HC49-4H_Vertical" H 1400 6850 50  0001 C CNN
+F 3 "~" H 1400 6850 50  0001 C CNN
+	1    1400 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5F093589
+P 1250 6950
+F 0 "C4" H 1100 7000 50  0000 L CNN
+F 1 "22p" H 1050 6900 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 1250 6950 50  0001 C CNN
+F 3 "~" H 1250 6950 50  0001 C CNN
+	1    1250 6950
+	1    0    0    -1  
+$EndComp
+Connection ~ 1250 6850
+$Comp
+L Device:C_Small C5
+U 1 1 5F094216
+P 1550 6950
+F 0 "C5" H 1642 6996 50  0000 L CNN
+F 1 "22p" H 1642 6905 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 1550 6950 50  0001 C CNN
+F 3 "~" H 1550 6950 50  0001 C CNN
+	1    1550 6950
+	1    0    0    -1  
+$EndComp
+Connection ~ 1550 6850
+Wire Wire Line
+	1250 7050 1400 7050
+Connection ~ 1400 7050
+Wire Wire Line
+	1400 7050 1550 7050
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5EDC2A3B
+P 7200 5500
+F 0 "J1" H 7118 5075 50  0000 C CNN
+F 1 "Conn_01x04" H 7118 5166 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 7200 5500 50  0001 C CNN
+F 3 "~" H 7200 5500 50  0001 C CNN
+	1    7200 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7400 5300 7550 5300
+Wire Wire Line
+	7700 4950 7700 5300
+Connection ~ 7550 5300
+Wire Wire Line
+	7550 5300 7700 5300
+Wire Wire Line
+	7400 5600 7400 6100
+Connection ~ 7400 6100
 $EndSCHEMATC
