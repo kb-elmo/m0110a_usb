@@ -28,6 +28,6 @@ The board is now fully tested and works absolutely perfect. Firmware and a guide
  
 
 #### Some pictures of the first finished PCB
-![](https://i.imgur.com/h8nN8Onm.jpg) ![](https://i.imgur.com/I2VAmy7m.jpg)
-![](https://i.imgur.com/ea1CpBZm.jpg) ![](https://i.imgur.com/CFuogo9m.jpg)
-![](https://i.imgur.com/pZBU3Dlm.jpg) ![](https://i.imgur.com/YBv4Ca8m.jpg)
+[![](https://i.imgur.com/h8nN8Onm.jpg)](https://i.imgur.com/h8nN8On.jpg) [![](https://i.imgur.com/I2VAmy7m.jpg)](https://i.imgur.com/I2VAmy7.jpg)
+[![](https://i.imgur.com/ea1CpBZm.jpg)](https://i.imgur.com/ea1CpBZ.jpg) [![](https://i.imgur.com/CFuogo9m.jpg)](https://i.imgur.com/CFuogo9.jpg)
+[![](https://i.imgur.com/pZBU3Dlm.jpg)](https://i.imgur.com/pZBU3Dl.jpg) [![](https://i.imgur.com/YBv4Ca8m.jpg)](https://i.imgur.com/YBv4Ca8.jpg)
