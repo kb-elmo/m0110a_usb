@@ -1,5 +1,5 @@
 /*
-Copyright 2020 elmo-space<mail@elmo.space>
+Copyright 2020 kb-elmo<mail@elmo.space>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -23,8 +23,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define VENDOR_ID 0xA68C
 #define PRODUCT_ID 0xDB4B
 #define DEVICE_VER 0x0001
-#define MANUFACTURER APPLE
-#define PRODUCT M0110A
+#define MANUFACTURER kb-elmo
+#define PRODUCT M0110A USB
 
 /* key matrix size */
 #define MATRIX_ROWS 5
@@ -51,6 +51,3 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Bootmagic Lite key configuration */
 #define BOOTMAGIC_LITE_ROW 0
 #define BOOTMAGIC_LITE_COLUMN 0
-
-#define NO_ACTION_MACRO
-#define NO_ACTION_FUNCTION
