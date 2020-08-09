@@ -17,7 +17,7 @@ The board is now fully tested and works absolutely perfect. Firmware and a guide
  |1|40 pin DIP socket (optional but highly recommended)|
  |1|2x3 pin header 2.54mm (for ISP flashing)|
  |1|3mm LED (any color should work)|
- |1|JST HA 2mm connector + cable|
+ |1|JST PH 2mm 4pin connector + cable|
  |1|mini usb breakout board|
  |1|500 mA polyfuse|
  |2|6mm momentary push buttons|
