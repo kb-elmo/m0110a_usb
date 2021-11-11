@@ -4,7 +4,7 @@
 
 ## This project is completed and is not getting updated anymore.
 
-## QMK compatible drop-in replacement PCB for the Apple M0110a
+### QMK compatible drop-in replacement PCB for the Apple M0110a
 The PCB is built entirely with THT parts to keep a somewhat "vintage" look to it and it uses the fullsize 40-pin DIP package ATmega32A.
 The controller is placed in the exact same location as the one on the original PCB meaning that it can be accessed through the plate cutout under the spacebar.
 
